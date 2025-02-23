@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+#calender-months > p{
+    font-weight: 700;
+    font-size: 44px;
+    font-family: "Irish Grover", "Tajawal", sans-serif;
+}
+#calender-months{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 25px;
+}
