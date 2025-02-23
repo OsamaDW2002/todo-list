@@ -1,0 +1,9 @@
+main{
+    width: 1360px;
+}
+#calender-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: "days days days days days days days";
+    gap: 0;
+}

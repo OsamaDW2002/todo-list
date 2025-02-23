@@ -1,0 +1,12 @@
+.dayName{
+    width: 193px;
+    height: 106px;
+    background-color: #D9D9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dayName > p{
+    font-weight: 700;
+    font-size: 30px;
+}

@@ -1,8 +1,11 @@
-import './style.css'
-import { setupCounter } from './counter.js'
+document.querySelector("#app").innerHTML = `
+  <main>
+    <div id="calender-months">
+        <img src="/assets/icons/arrow-right.svg" alt="arrow next month in the calender">
+        <p>Jan</p>
+        <img src="/assets/icons/arrow-left.svg" alt="arrow prevous month in the calender">
 
-document.querySelector('#app').innerHTML = `
-  <main >
+    </div>
     <div id="calender-container">
         <div class="dayName"><p>Saturday</p></div>
         <div class="dayName"><p>Sunday</p></div>
@@ -11,10 +14,8 @@ document.querySelector('#app').innerHTML = `
         <div class="dayName"><p>Wednesday</p></div>
         <div class="dayName"><p>Thursday</p></div>
         <div class="dayName"><p>Friday</p></div>
-        
-        <script ></script> 
     </div>
   </main>
-`
+`;
 
-setupCounter(document.querySelector('#counter'))
+
