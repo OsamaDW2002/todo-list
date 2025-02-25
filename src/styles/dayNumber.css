@@ -9,3 +9,12 @@
     font-size: 30px;
     margin-left: 7px;
 }
+
+.dayNumber  .day-tasks-container {
+    background-color: #82869E;
+    color: #E4E5F0;
+    overflow: hidden;
+}
+.dayNumber{
+    overflow: hidden;
+}
