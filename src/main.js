@@ -27,8 +27,8 @@ document.querySelector("#app").innerHTML = `
     <dialog id="day-dialog">
         <div>
             <p id="dialog-header">Recent Tasks</p>
-            <img src="public/assets/icons/add.svg" alt="add new task" id="add-task">
-            <img src="public/assets/icons/close.svg" alt="close dialog button" id="close-dialog"/>
+            <img src="/assets/icons/add.svg" alt="add new task" id="add-task">
+            <img src="/assets/icons/close.svg" alt="close dialog button" id="close-dialog"/>
         </div>
         <div id="task-container">
             
