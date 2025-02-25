@@ -13,5 +13,5 @@ This is a simple to-do list web application that allows users to add, check, and
 
 ## Live Link  
 
-[Live To-Do List App](#https://osamadw2002.github.io/todo-list/) 
+[Live To-Do List App](https://osamadw2002.github.io/todo-list/) 
 
