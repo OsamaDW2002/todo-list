@@ -1,6 +1,6 @@
-import {displayAllDaysOfMonth} from "./display-month-day.js";
-import {changeMonth} from "./months-swiper.js";
-import {monthNumber, setMonthNumber} from "./monthState.js";
+import {displayAllDaysOfMonth} from "./src/js/display-month-day.js";
+import {changeMonth} from "./src/js/months-swiper.js";
+import {monthNumber, setMonthNumber} from "./src/js/monthState.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     displayAllDaysOfMonth(new Date().toLocaleString('en-US', { month: 'long' }));
