@@ -14,9 +14,9 @@ function loadTasks(day) {
     const storageKey = day + monthNumber;
     const data = JSON.parse(localStorage.getItem(storageKey)) || { tasks: [], notes: "", completed: [] };
 
-    console.log("Tasks:", data.tasks);
-    console.log("Notes:", data.notes);
-    console.log("Completed:", data.completed);
+    // console.log("Tasks:", data.tasks);
+    // console.log("Notes:", data.notes);
+    // console.log("Completed:", data.completed);
     return data;
 }
 

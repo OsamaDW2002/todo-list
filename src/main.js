@@ -1,6 +1,6 @@
-import {displayAllDaysOfMonth} from "./js/display-month-day.js";
-import {changeMonth} from "./js/months-swiper.js";
-import {monthNumber, setMonthNumber} from "./js/monthState.js";
+import {displayAllDaysOfMonth} from "./display-month-day.js";
+import {changeMonth} from "./months-swiper.js";
+import {monthNumber, setMonthNumber} from "./monthState.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     displayAllDaysOfMonth(new Date().toLocaleString('en-US', { month: 'long' }));
@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelector("#app").innerHTML = `
   <main>
     <div id="calender-months">
-        <img src="/assets/icons/arrow-right.svg" alt="arrow next month in the calender">
+        <img src="public/assets/icons/arrow-right.svg" alt="arrow next month in the calender">
         <p>Jan</p>
-        <img src="/assets/icons/arrow-left.svg" alt="arrow previous month in the calender">
+        <img src="public/assets/icons/arrow-left.svg" alt="arrow previous month in the calender">
     </div>
     <div id="calender-container">
         <div class="dayName"><p>Sunday</p></div>
@@ -27,8 +27,8 @@ document.querySelector("#app").innerHTML = `
     <dialog id="day-dialog">
         <div>
             <p id="dialog-header">Recent Tasks</p>
-            <img src="/assets/icons/add.svg" alt="add new task" id="add-task">
-            <img src="/assets/icons/close.svg" alt="close dialog button" id="close-dialog"/>
+            <img src="public/assets/icons/add.svg" alt="add new task" id="add-task">
+            <img src="public/assets/icons/close.svg" alt="close dialog button" id="close-dialog"/>
         </div>
         <div id="task-container">
             
